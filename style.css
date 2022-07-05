@@ -20,13 +20,18 @@ body {
     overflow-x:hidden;
 }
 .container{
-    max-width:300px;
+    /* max-width:300px; */
     margin:0 auto;
     background: #fff;
     border-radius: 20px;
   
 }
-
+@media screen and (max-width:375px) {
+    .container {
+        width: 350px;
+        overflow: hidden;
+    }
+}
 .card{
     background-color: white;
     border-radius:5%;
